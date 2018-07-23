@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/*# import fonts*/
+@font-face { font-family: DINBold; src: url("../fonts/DINBold.ttf"); }
+@font-face { font-family: KozMinPr6N-Bold; src: url("../fonts/ KozMinPr6N-Bold.otf"); }
+@font-face { font-family: KozMinPr6N-ExtraLight; src: url("../fonts/KozMinPr6N-ExtraLight.otf"); }
+@font-face { font-family: KozMinPr6N-Heavy; src: url("../fonts/KozMinPr6N-Heavy.otf"); }
+@font-face { font-family: KozMinPr6N-Light; src: url("../fonts/KozMinPr6N-Light.otf"); }
+@font-face { font-family: KozMinPr6N-Medium; src: url("../fonts/KozMinPr6N-Medium.otf"); }
+@font-face { font-family: KozMinPr6N-Regular; src: url("../fonts/KozMinPr6N-Regular.otf"); }
+@font-face { font-family: meiryo; src: url("../fonts/meiryo.ttc"); }
+@font-face { font-family: meiryob; src: url("../fonts/meiryob.ttc"); }
+@font-face { font-family: ShinGoPro-DeBold; src: url("../fonts/ShinGoPro-DeBold.otf"); }
+@font-face { font-family: YuGothB; src: url("../fonts/YuGothB.ttc"); }
+@font-face { font-family: YuGothL; src: url("../fonts/YuGothL.ttc"); }
+@font-face { font-family: YuGothM; src: url("../fonts/YuGothM.ttc"); }
+@font-face { font-family: YuGothR; src: url("../fonts/YuGothR.ttc"); }
+@font-face { font-family: ShinGoPro-Regular; src: url("../fonts/ShinGoPro-Regular.otf"); }
+@font-face { font-family: ShinGoPro-Medium; src: url("../fonts/ShinGoPro-Medium.otf"); }
+@font-face { font-family: HiraKakuProN-W3; src: url("../fonts/HiraKakuProN-W3.otf"); }
+@font-face { font-family: HiraKakuPro_w6; src: url("../fonts/HiraKakuPro_w6.otf"); }
+* { margin: 0; padding: 0; }
+
+body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500; font-size: 16px; }
+
+.wrap-page { max-width: 950px; margin: 0 auto; }
+
+.center { text-align: center; }
+
+.row { display: flex; flex-wrap: wrap; flex-direction: row; }
+
+.container { flex-direction: column; display: flex; flex-wrap: wrap; }
+
+.col-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
+
+.col-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
+
+.col-3 { flex: 0 0 25%; max-width: 25%; }
+
+.col-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+
+.col-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
+
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+
+.col-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
+
+.col-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+
+.col-9 { flex: 0 0 75%; max-width: 75%; }
+
+.col-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
+
+.col-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
+
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+
+#top { background-color: #006699; height: 4px; }
+
+@media only screen and (max-width: 1150px) { .page-top { display: none !important; } }
+#top, .header-mainnav, .mainimage, .contents, .footer, .tv-mainimage, .tv-contents { min-width: 950px; }
+
+/*# import header*/
+.header .logo-text { padding-top: 19px; }
+.header .logo-text .logo { padding-left: 7px; }
+.header .contact { padding-top: 26px; }
+.header .contact .phone img { float: left; margin: -30px; margin-left: -5px; padding-top: 45px; }
+.header .contact .phone span { font-family: "meiryo"; color: #666666; font-size: 10px; float: left; margin-left: -2px; margin-top: 32px; }
+.header .contact .email-header { margin-top: 14px; }
+.header .contact .email-header .btn { width: 100%; height: 45px; font-family: "meiryob"; color: #ff6600; font-size: 13.33px; font-weight: bold; border: none; background-color: #ffed4d; cursor: pointer; }
+.header .contact .email-header .btn:hover { background-color: #ffed4d; opacity: 0.7; }
+.header .btn-hide-icon { display: none; }
+.header .icon-bars::before { content: url("../images/icon-close.png"); position: absolute; top: 15px; right: 15px; }
+.header .icon-close::before { content: url("../images/icon-bar.png"); position: absolute; top: 15px; right: 10px; }
+
+/*# import mainNav*/
+.mainnav { margin-top: 20px; }
+.mainnav .menu-nav { display: block; list-style-type: none; }
+.mainnav .menu-nav li { display: inline-block; padding-bottom: 10px; border-bottom: 3px solid #ffffff; margin-left: -7px; }
+.mainnav .menu-nav li a { display: inline-block; padding: 0 40px; text-decoration: none; border-right: 1px solid #dddddd; font-family: "ShinGoPro-DeBold"; color: #000000; font-size: 13.8px; text-align: center; }
+.mainnav .menu-nav li p { font-family: "DINBold"; color: #0e5b9a; font-size: 12px; text-align: center; }
+.mainnav .menu-nav li:first-child a { border-left: 1px solid #dddddd; }
+.mainnav .menu-nav li:hover { border-bottom: 3px solid #dddddd; }
+
+.mainnav-mobile { display: none; }
+
+/*# import mainImage*/
+.mainimage { background-image: url("../images/bg-mainimage.png"); background-size: cover; background-position: center; background-repeat: no-repeat; }
+.mainimage .soild { font-family: "ShinGoPro-Regular"; color: white; font-size: 32px; text-decoration: none; margin: 160px auto; border-style: solid; border-width: 1px; padding: 10px; }
+
+/*# import content*/
+.contents .content-1 { margin-top: 80px; }
+.contents .khung { border-style: solid; border-width: 1px; border-color: #cccccc; padding: 50px; }
+.contents .khung .text { list-style-type: none; }
+.contents .khung .text a { text-decoration: none; }
+.contents .khung .text h3 { font-family: "ShinGoPro-DeBold"; font-size: 26.67px; color: #000000; }
+.contents .khung .text p { font-family: "DINBold"; font-size: 16px; color: #006699; }
+.contents .khung .text .btn-contact { font-family: "ShinGoPro-Medium"; font-size: 16px; border: none; padding: 3px 14px; margin-top: 10px; background: #006699; color: white; cursor: pointer; }
+.contents .khung .text .btn-contact img { padding: 2px; }
+.contents .khung .text .btn-contact:hover { background-color: #6699cc; opacity: 0.7; }
+.contents .khung .text li { border-right: 1px solid #dddd; }
+.contents .khung .day { margin-top: 15px; }
+.contents .khung .day p { font-family: "meiryo"; font-size: 21.33px; margin-left: 40px; color: #006699; }
+.contents .khung .day a { color: #000000; }
+.contents .khung .btn-hide { display: none; }
+.contents .content-2 { margin-top: 80px; min-height: 575px; background-color: #eeeeee; }
+.contents .content-2 .text { margin-top: 60px; }
+.contents .content-2 .text .text-1 { font-family: "ShinGoPro-DeBold"; font-size: 26.67px; color: #000000; }
+.contents .content-2 .text .text-2 { font-family: "DINBold"; font-size: 16px; color: #006699; padding-top: 18px; }
+.contents .content-2 .text .text-3 { font-family: "meiryo"; font-size: 21.33px; color: #858585; padding-top: 40px; }
+.contents .content-2 .process { margin-top: 65px; margin-bottom: 78px; }
+.contents .content-2 .process .frame { background-image: url("../images/frame.png"); width: 246px; height: 252px; background-size: cover; margin: 15px auto; position: relative; background-repeat: no-repeat; }
+.contents .content-2 .process .frame .noidung { width: 236px; margin: 5px; height: 242px; }
+.contents .content-2 .process .frame .noidung .show, .contents .content-2 .process .frame .noidung .hide { margin-top: 45px; }
+.contents .content-2 .process .frame .noidung img.hide { display: none; }
+.contents .content-2 .process .frame .noidung p { font-family: "ShinGoPro-DeBold"; font-size: 18.66px; color: #006699; }
+.contents .content-2 .process .frame .noidung .btn-process { font-family: "ShinGoPro-Medium"; font-size: 12px; border: none; padding: 3px 14px; margin-top: 10px; background: #006699; color: white; cursor: pointer; }
+.contents .content-2 .process .frame .noidung .btn-process img { padding: 2px; }
+.contents .content-2 .process .frame .noidung:hover { background-color: #0f5c9b; color: #fff; }
+.contents .content-2 .process .frame .noidung:hover img.show { display: none; }
+.contents .content-2 .process .frame .noidung:hover img.hide { display: inline-block; }
+.contents .content-2 .process .frame .noidung:hover p { color: #ffffff; }
+.contents .content-2 .process .frame .noidung:hover .btn-process { background: white; color: #006699; }
+.contents .content-2 .process .frame .noidung:hover .btn-process img { display: none; }
+.contents .content-2 .process .frame .noidung:hover .btn-process::before { content: url("../images/icon-rightb.png"); padding: 2px; }
+.contents .content-3 .content-3-img { display: flex; flex-direction: column; position: relative; }
+.contents .content-3 .content-3-img .people { margin-left: -30px; }
+.contents .content-3 .content-3-img .trade { position: absolute; top: 160px; right: 0; width: 130px; }
+.contents .content-3 .content-sub { margin-left: 65px; margin-top: 82px; }
+.contents .content-3 .content-sub .content-sub-1 { font-family: "ShinGoPro-DeBold"; font-size: 20px; color: #000000; line-height: 1.3; }
+.contents .content-3 .content-sub .content-sub-2 { font-family: meiryo; font-size: 14.67px; color: #545454; }
+.contents .content-3 .content-sub .btn-content3 { font-family: "meiryob"; font-size: 16px; border: none; padding: 10px 20px; margin-top: 23px; background: #006699; color: white; cursor: pointer; }
+.contents .content-3 .content-sub .btn-content3 img { padding: 2px; }
+.contents .content-3 .content-sub .btn-content3:hover { background: #006699; opacity: 0.7; }
+
+/*# import footer*/
+.footer .footer-1 { min-height: 358px; background-image: url(../images/bgfooter.png); background-size: cover; background-position: center; }
+.footer .footer-1 .text-footer { margin-top: 60px; padding-left: 15px !important; padding-right: 15px !important; }
+.footer .footer-1 .text-footer .soild-footer { font-family: "ShinGoPro-DeBold"; border-style: solid; border-width: 1px; color: white; padding: 15px 90px; text-decoration: none; font-size: 26.67px; display: inline-block; }
+.footer .footer-1 .text-footer .text-white, .footer .footer-1 .text-footer .text-yellow { font-family: "HiraKakuProN-W3" !important; font-size: 17.33px !important; }
+.footer .footer-1 .text-footer .text-white { margin-top: 30px; color: #ffffff !important; }
+.footer .footer-1 .text-footer .text-yellow { color: #ffff4c !important; }
+.footer .footer-1 .contact-footer { margin-top: 25px; margin-bottom: 60px; }
+.footer .footer-1 .contact-footer .phone img { margin-left: 198px; }
+.footer .footer-1 .contact-footer .phone span { font-family: "meiryo"; color: #ffffff; font-size: 16.4px; margin-left: 194px; }
+.footer .footer-1 .contact-footer .email-footer .btn { width: 51%; height: 51px; font-family: "meiryob"; color: #ff6600; font-size: 13.33px; font-weight: bold; border: none; background-color: #ffed4d; cursor: pointer; margin-left: 75px; }
+.footer .footer-1 .contact-footer .email-footer .btn img { margin-right: 5px; margin-left: 10px; }
+.footer .footer-1 .contact-footer .email-footer .btn:hover { background-color: #ffed4d; opacity: 0.7; }
+.footer .footer-1 .page-top { width: 80px; height: 80px; background-color: #ffffff; float: right; margin-top: -110px; text-align: center; margin-right: 150px; cursor: pointer; }
+.footer .footer-1 .page-top .show { margin-top: 23px; }
+.footer .footer-1 .page-top .hide { margin-top: 23px; }
+.footer .footer-1 .page-top img.hide { display: none; }
+.footer .footer-1 .page-top h5 { font-family: "DINBold"; color: #006699; font-size: 13.33px; }
+.footer .footer-1 .page-top:hover { background: none; }
+.footer .footer-1 .page-top:hover img.show { display: none; }
+.footer .footer-1 .page-top:hover img.hide { display: inline-block; }
+.footer .footer-1 .page-top:hover h5 { color: #ffffff; }
+.footer .footer-2 { text-align: center; background-color: #cccccc; padding-bottom: 42px; }
+.footer .footer-2 .menu-footer { margin-top: 40px; display: block; list-style-type: none; }
+.footer .footer-2 .menu-footer li { display: inline-block; }
+.footer .footer-2 .menu-footer li a span { display: inline-block; padding: 0 22px; text-decoration: none; border-right: 1px solid #5e5e5e; font-family: meiryo; color: #222222; font-size: 16px; text-align: center; }
+.footer .footer-2 .menu-footer li:first-child a { border-left: 1px solid #5e5e5e; }
+.footer .footer-3 { height: 50px; text-align: center; }
+.footer .footer-3 p { margin-top: 16px; font-family: "meiryo"; color: #212121; }
+
+/*# responsive*/
+@media (min-width: 320px) and (max-width: 768px) { #top, .header-mainnav, .mainimage, .contents, .footer, .tv-mainimage, .tv-contents { min-width: 300px; }
+  #top { background-color: #006699 !important; height: 2px !important; }
+  /********************* ▼ header-mainnav ▼***********************/
+  .header-mainnav .header { height: 95px; }
+  .header-mainnav .header .logo-text { display: block; padding-top: 9.5px; }
+  .header-mainnav .header .logo-text .logo { padding-left: 13px; width: 206.66px; height: 70px; }
+  .header-mainnav .header .contact { display: none !important; }
+  .header-mainnav .header .btn-hide-icon { display: block; }
+  .header-mainnav .header .btn-hide-icon .icon { width: 60px; height: 60px; position: absolute; cursor: pointer; background-color: #006699; top: 20px; right: 20px; border-radius: 10px; }
+  .header-mainnav .mainnav { display: none; }
+  .header-mainnav .mainnav-mobile { display: block; background-color: #0f5c9b !important; color: white; position: absolute; width: 100%; height: 850px; top: 94px; }
+  .header-mainnav .mainnav-mobile .menu-nav li:first-child { margin-top: 60px; }
+  .header-mainnav .mainnav-mobile .menu-nav li:first-child div { border-top-style: dashed; }
+  .header-mainnav .mainnav-mobile .menu-nav .border { border-bottom-style: dashed; margin-left: 70px; margin-right: 70px; padding: 0px; border-width: 1.5px; }
+  .header-mainnav .mainnav-mobile .menu-nav .border a { color: white; text-decoration: none; font-family: HiraKakuPro_w6; font-size: 26.67px; padding: 25px; margin-left: -25px; width: 100%; }
+  .header-mainnav .mainnav-mobile .menu-nav .border a::before { content: url("../images/icon-right-rps.png"); padding-right: 10px; }
+  /************************* ▲ header-mainnav ▲*************************/
+  /********************* ▼ mainimage ▼***********************/
+  .mainimage .soild { width: 80%; font-size: 33.77px; padding: 10px 25px; }
+  /************************* ▲ mainimage ▲*************************/
+  /********************* ▼ contents ▼***********************/
+  .contents .content-1 { padding: 0px; margin-left: 13px; margin-right: 13px; }
+  .contents .content-1 .col-3 { flex: 0 0 100%; max-width: 100%; text-align: center; }
+  .contents .content-1 .col-3 .text li { border-right: 0px; }
+  .contents .content-1 .col-3 .text p { margin-left: 0px; }
+  .contents .content-1 .col-3 .text .btn-contact { display: none; }
+  .contents .content-1 .day { margin: 0 auto; margin-top: 34px; }
+  .contents .content-1 .day p { margin-bottom: 10px; border-top: 1px dashed #dddddd; margin-left: 0px; }
+  .contents .content-1 .day a { display: flow-root; }
+  .contents .content-1 .day .border-bot { border-bottom: 1px dashed #dddddd; padding-bottom: 10px; }
+  .contents .content-1 .day .btn-day { margin-bottom: 20px; }
+  .contents .content-1 .day .btn-day .btn-hide { display: block; border: none; padding: 0px 25px 0 0; margin-top: 15px; background: #006699; color: white; font-family: "ShinGoPro-Medium"; font-size: 17.33px; }
+  .contents .content-1 .day .btn-day .btn-hide img { padding: 12px; float: left; margin-right: 5px; }
+  .contents .content-2 .process { margin-left: 15px; margin-right: 15px; }
+  .contents .content-2 .process .frame { width: 168px; height: 168px; background-size: contain; margin: 15px auto; position: relative; background-repeat: no-repeat; }
+  .contents .content-2 .process .frame .noidung { width: 91%; height: 94%; margin-left: 5px; margin-top: 5.5px; }
+  .contents .content-2 .process .frame .noidung .show, .contents .content-2 .process .frame .noidung .hide { margin-top: 22.5px; width: 35%; }
+  .contents .content-2 .process .frame .noidung .h { margin-top: 10.5px; }
+  .contents .content-2 .process .frame .noidung p { font-size: 13.33px; }
+  .contents .content-2 .process .frame .noidung .btn-process { padding: 0px 10px; }
+  .contents .content-3 .content-3-img { flex: 0 0 100%; max-width: 100%; order: 2; display: flex; flex-direction: column; position: relative; }
+  .contents .content-3 .content-3-img .people { margin-left: -10px; height: 350px; width: 70%; }
+  .contents .content-3 .content-3-img .trade { position: absolute; top: 45%; right: 16%; width: 20%; }
+  .contents .content-3 .content-3-text { flex: 0 0 100%; max-width: 100%; text-align: center; }
+  .contents .content-3 .content-3-text .content-sub { margin-left: 17.5px !important; margin-right: 17.5px !important; }
+  .contents .content-3 .content-3-text .content-sub .content-sub-1 { font-size: 37.77px !important; }
+  .contents .content-3 .content-3-text .content-sub .content-sub-2 { font-family: "HiraKakuProN-W3" !important; font-size: 29.33px !important; color: #535353 !important; }
+  .contents .content-3 .content-3-text .content-sub .btn-content3 { font-size: 21.33px !important; padding: 20px 40px !important; }
+  .contents .content-3 .content-3-text .content-sub .btn-content3 img { padding: 10px !important; float: left !important; width: 10px; }
+  /************************* ▲ contents ▲*************************/
+  /********************* ▼ footer ▼***********************/
+  .footer .footer-1 .contact-footer .col-6 { flex: 0 0 100%; max-width: 100%; text-align: center; }
+  .footer .footer-1 .contact-footer .phone img { margin-left: 0px !important; }
+  .footer .footer-1 .contact-footer .email-footer .btn { margin-left: 0px !important; width: 50% !important; margin-top: 20px; }
+  .footer .footer-2 a span { border-right: 1px solid #212121 !important; font-family: "HiraKakuProN-W3" !important; color: #212121 !important; }
+  /************************* ▲ footer ▲**************************/
+  /*=========================== ▼ responsive of file tv ▼ ===========================*/
+  .tv-mainimage .text-file { margin: 85px 60px 85px 60px !important; font-family: "ShinGoPro-Regular" !important; font-size: 33.33px !important; }
+  .tv-contents .content-top { display: none !important; }
+  .tv-contents .content-1 .text-1 { font-family: "HiraKakuPro_w6" !important; font-size: 33.33px !important; color: #555555 !important; }
+  .tv-contents .content-1 .text-2 { font-family: "HiraKakuProN-W3" !important; font-size: 29.33px !important; color: #555555 !important; padding: 45px 15px 0px 15px !important; }
+  .tv-contents .content-1 .table #tbl { display: none; }
+  .tv-contents .content-1 .table .table-rps { display: block !important; padding-left: 15px; padding-right: 15px; }
+  .tv-contents .content-1 .table .table-rps .col-3 { flex: 0 0 100%; max-width: 100%; }
+  .tv-contents .content-1 .table .table-rps .col-6 { flex: 0 0 100%; max-width: 100%; }
+  .tv-contents .content-1 .table .table-rps .tr { border: 1px solid #dddddd !important; }
+  .tv-contents .content-1 .table .table-rps .tr .th { padding-top: 12px; padding-bottom: 12px; background-color: #0e5b9a; color: #ffffff; }
+  .tv-contents .content-2 { padding-left: 15px !important; padding-right: 15px !important; }
+  .tv-contents .content-2 .center p { font-family: "HiraKakuPro_w6" !important; font-size: 33.33px !important; color: #555555 !important; }
+  .tv-contents .content-2 .step { padding-bottom: 40px !important; }
+  .tv-contents .content-2 .step .step-1, .tv-contents .content-2 .step .step-2, .tv-contents .content-2 .step .step-3, .tv-contents .content-2 .step .step-4, .tv-contents .content-2 .step .step-5 { padding: 15px 15px 15px 15px !important; }
+  .tv-contents .content-2 .step .step-1 .col-8, .tv-contents .content-2 .step .step-2 .col-8, .tv-contents .content-2 .step .step-3 .col-8, .tv-contents .content-2 .step .step-4 .col-8, .tv-contents .content-2 .step .step-5 .col-8 { flex: 0 0 100%; max-width: 100%; }
+  .tv-contents .content-2 .step .step-1 .col-4, .tv-contents .content-2 .step .step-2 .col-4, .tv-contents .content-2 .step .step-3 .col-4, .tv-contents .content-2 .step .step-4 .col-4, .tv-contents .content-2 .step .step-5 .col-4 { flex: 0 0 100%; max-width: 100%; }
+  .tv-contents .content-2 .step .step-1 .img-cl4 img, .tv-contents .content-2 .step .step-2 .img-cl4 img, .tv-contents .content-2 .step .step-3 .img-cl4 img, .tv-contents .content-2 .step .step-4 .img-cl4 img, .tv-contents .content-2 .step .step-5 .img-cl4 img { width: 100% !important; }
+  .tv-contents .content-2 .step .step-1 a, .tv-contents .content-2 .step .step-2 a, .tv-contents .content-2 .step .step-3 a { font-family: "HiraKakuPro_w6" !important; color: #0f5c9b !important; font-size: 33.33px  !important; }
+  .tv-contents .content-2 .step .step-1 p, .tv-contents .content-2 .step .step-2 p, .tv-contents .content-2 .step .step-3 p { font-family: "HiraKakuProN-W3" !important; color: #555555  !important; font-size: 29.33px  !important; padding-bottom: 15px; }
+  .tv-contents .content-2 .step .step-4 a, .tv-contents .content-2 .step .step-5 a { font-family: "HiraKakuPro_w6" !important; color: #0f5c9b !important; font-size: 33.33px  !important; }
+  .tv-contents .content-2 .step .step-4 p, .tv-contents .content-2 .step .step-5 p { padding-bottom: 15px; }
+  .tv-contents .content-2 .step .step-4 p a, .tv-contents .content-2 .step .step-5 p a { font-family: "HiraKakuPro_w6" !important; color: #0f5c9b  !important; font-size: 29.33px  !important; }
+  .tv-contents .content-2 .step .step-1 .sub .col-6 { flex: 0 0 100%; max-width: 100%; }
+  .tv-contents .content-2 .step .step-1 .sub .phone img { width: 100% !important; height: 100px !important; }
+  .tv-contents .content-2 .step .step-1 .sub .email { margin: 5px 0 20px; }
+  .tv-contents .content-2 .step .step-1 .sub .email .btn { width: 100% !important; }
+  .tv-contents .content-3 { padding-left: 15px !important; padding-right: 15px !important; }
+  .tv-contents .content-3 .soild-content-3 { display: inline-block !important; }
+  .tv-contents .content-3 .txt-content-3 { font-family: "HiraKakuProN-W3" !important; color: #555555 !important; }
+  /*============================ ▲ responsive of file tv ▲ ==============================*/ }
+@media (min-width: 320px) and (max-width: 639px) { .process .col-4 { flex: 0 0 100%; max-width: 100%; }
+  .process .col-4 .frame { width: 300px !important; height: 300px !important; }
+  .process .col-4 .frame .noidung { width: 94% !important; height: 96% !important; }
+  .process .col-4 .frame .noidung p { font-size: 26.67px !important; }
+  .process .col-4 .frame .noidung .btn-process { padding: 4px 20px !important; } }
+/********************* ▼ header-mainnav ▼***********************/
+/************************* ▲ header ▲*************************/
+/*# import tv-mainimage*/
+.tv-mainimage { background-image: url("../images/tv-mainimage.png"); background-size: cover; background-position: center; background-repeat: no-repeat; }
+.tv-mainimage .text-file { margin: 67px auto 67px auto; font-family: "meiryo"; color: #ffffff; font-size: 32px; }
+
+/*# import tv-contents*/
+.tv-contents .content-top { border-bottom: 1px solid #dddddd; }
+.tv-contents .content-top .text { padding: 10px; }
+.tv-contents .content-top .text a { float: left; color: #0c5999; }
+.tv-contents .content-top .text p { color: #000000; }
+.tv-contents .content-top .text a, .tv-contents .content-top .text p { font-family: "meiryo"; font-size: 12px; }
+.tv-contents .content-1 .text { margin-top: 65px; }
+.tv-contents .content-1 .text .text-1 { font-family: "meiryo"; font-size: 30.67px; line-height: 0.8; color: #111111; }
+.tv-contents .content-1 .text .text-2 { font-family: "meiryo"; font-size: 17.33px; color: #525252; padding-top: 45px; }
+.tv-contents .content-1 .text .table { margin-top: 47px; margin-bottom: 80px; }
+.tv-contents .content-1 .text .table #tbl { font-family: "meiryo"; font-size: 17.33px; border-collapse: collapse; width: 100%; }
+.tv-contents .content-1 .text .table #tbl thead .tbw-1 { width: 260px; }
+.tv-contents .content-1 .text .table #tbl thead .tbw-2 { width: 218px; }
+.tv-contents .content-1 .text .table #tbl td, .tv-contents .content-1 .text .table #tbl th { border: 1px solid #ddd; padding: 8px; padding-bottom: 140px; }
+.tv-contents .content-1 .text .table #tbl td { text-align: left; }
+.tv-contents .content-1 .text .table #tbl th { padding-top: 12px; padding-bottom: 12px; background-color: #0e5b9a; color: white; }
+.tv-contents .content-1 .text .table .table-rps { display: none; }
+.tv-contents .content-2 { background-color: #eeeeee; }
+.tv-contents .content-2 .center { padding-top: 70px; }
+.tv-contents .content-2 .center p { font-family: "meiryo"; font-size: 30.67px; line-height: 0.8; color: #111111; }
+.tv-contents .content-2 .step { padding-bottom: 50px; }
+.tv-contents .content-2 .step .step-1, .tv-contents .content-2 .step .step-2, .tv-contents .content-2 .step .step-3, .tv-contents .content-2 .step .step-4, .tv-contents .content-2 .step .step-5 { padding: 25px 25px 25px 25px; background-color: #ffffff; }
+.tv-contents .content-2 .step .step-1 a, .tv-contents .content-2 .step .step-2 a, .tv-contents .content-2 .step .step-3 a, .tv-contents .content-2 .step .step-4 a, .tv-contents .content-2 .step .step-5 a { text-decoration: none; font-family: "ShinGoPro-DeBold"; color: #0e5b9a; font-size: 18.67px; }
+.tv-contents .content-2 .step .step-1 a img, .tv-contents .content-2 .step .step-2 a img, .tv-contents .content-2 .step .step-3 a img, .tv-contents .content-2 .step .step-4 a img, .tv-contents .content-2 .step .step-5 a img { float: left; margin-right: 15px; }
+.tv-contents .content-2 .step .step-1 p, .tv-contents .content-2 .step .step-2 p, .tv-contents .content-2 .step .step-3 p, .tv-contents .content-2 .step .step-4 p, .tv-contents .content-2 .step .step-5 p { font-family: "meiryo"; font-size: 16px; color: #111111; padding-top: 15px; }
+.tv-contents .content-2 .step .step-1 .img-cl4 img, .tv-contents .content-2 .step .step-2 .img-cl4 img, .tv-contents .content-2 .step .step-3 .img-cl4 img, .tv-contents .content-2 .step .step-4 .img-cl4 img, .tv-contents .content-2 .step .step-5 .img-cl4 img { float: right; }
+.tv-contents .content-2 .step .step-2, .tv-contents .content-2 .step .step-3, .tv-contents .content-2 .step .step-4, .tv-contents .content-2 .step .step-5 { margin-top: 30px; }
+.tv-contents .content-2 .step .step-1 { margin-top: 45px; }
+.tv-contents .content-2 .step .step-1 .sub { margin-top: 50px; }
+.tv-contents .content-2 .step .step-1 .sub .phone img { width: 95%; height: 45px; }
+.tv-contents .content-2 .step .step-1 .sub .email .btn { width: 95%; height: 45px; font-family: "meiryob"; color: #ff6600; font-size: 13.33px; border: none; background-color: #ffed4d; cursor: pointer; }
+.tv-contents .content-2 .step .step-1 .sub .email .btn:hover { background-color: #ffed4d; opacity: 0.7; }
+.tv-contents .content-3 { margin-top: 60px; }
+.tv-contents .content-3 .soild-content-3 { font-family: "ShinGoPro-DeBold"; border-style: solid; border-width: 1px; color: #0f5c9b; padding: 15px 77px; font-size: 26.67px; text-decoration: none; }
+.tv-contents .content-3 .txt-content-3 { margin-top: 50px; margin-bottom: 80px; font-family: "meiryo"; color: #525252; font-size: 16px; }
+.tv-contents .content-3 .txt-content-3 a { color: #0f5c9b; text-decoration: none; font-size: 24px; }
+
+/*# sourceMappingURL=style.css.map */

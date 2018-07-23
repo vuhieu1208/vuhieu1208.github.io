@@ -1,0 +1,425 @@
+@media (min-width: 320px) and (max-width: 768px){
+    #top,.header-mainnav,.mainimage,.contents,.footer,.tv-mainimage,.tv-contents{min-width: 300px;}
+    #top{
+        background-color: #006699 !important;
+        height: 2px !important;   
+    }
+    /********************* ▼ header-mainnav ▼***********************/
+    .header-mainnav{
+        .header{
+            height: 95px;
+            .logo-text{
+                display: block;
+                padding-top: 9.5px;
+                .logo{
+                    padding-left: 13px;
+                    width: 206.66px;
+                    height: 70px;
+                }       
+            }
+            .contact{
+                display: none !important;
+            }
+            .btn-hide-icon{
+                display: block;
+               .icon{
+                   width: 60px;
+                   height: 60px;
+                   position: absolute;
+                   cursor: pointer;
+                   background-color: #006699;
+                   top: 20px;
+                   right: 20px;
+                   border-radius: 10px;
+               }
+           }
+        }
+        .mainnav{
+            display: none;
+        }
+        .mainnav-mobile{
+            display: block;
+            background-color: #0f5c9b !important;
+            color: white;
+            position: absolute;
+            width: 100%;
+            height: 850px;
+            top: 94px;
+            .menu-nav{
+                li:first-child{
+                    margin-top: 60px;
+                }
+                li:first-child div{
+                    border-top-style: dashed;
+                }
+                .border{
+                    border-bottom-style: dashed;
+                    margin-left: 70px;
+                    margin-right: 70px;
+                    padding: 0px;
+                    border-width: 1.5px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-family: HiraKakuPro_w6;
+                        font-size: 26.67px;
+                        padding: 25px;
+                        margin-left: -25px;
+                        width: 100%;
+                    }
+                    a::before{
+                        content:url('../images/icon-right-rps.png');
+                        padding-right: 10px;
+                    }
+                }             
+            }
+        }
+    }
+    /************************* ▲ header-mainnav ▲*************************/
+    /********************* ▼ mainimage ▼***********************/
+    .mainimage{
+        .soild{
+            width: 80%;
+            font-size: 33.77px;
+            padding: 10px 25px;
+        }
+    } 
+    /************************* ▲ mainimage ▲*************************/ 
+    /********************* ▼ contents ▼***********************/
+    .contents{
+        .content-1{
+            padding: 0px; 
+            margin-left: 13px;
+            margin-right: 13px;
+            .col-3{
+                flex: 0 0 100%;
+                max-width: 100%;
+                text-align: center;
+                .text{                       
+                    li{
+                        border-right: 0px;
+                    }
+                    p{
+                        margin-left: 0px;
+                    }
+                    .btn-contact{
+                        display: none;
+                    }
+                }                   
+            }
+            .day{
+                margin: 0 auto;
+                margin-top: 34px;
+                p{
+                    margin-bottom: 10px;
+                    border-top: 1px dashed #dddddd;   
+                    margin-left: 0px;                      
+                }
+                a{ display: flow-root;}
+                .border-bot{
+                    border-bottom: 1px dashed #dddddd;
+                    padding-bottom: 10px;
+                    }
+                .btn-day{
+                    margin-bottom: 20px;               
+                    .btn-hide{
+                        display: block;
+                        border: none;
+                        padding: 0px 25px 0 0;
+                        margin-top: 15px;
+                        background:#006699;
+                        color: white;
+                        font-family: $font-sm;
+                        font-size: 17.33px;
+                        img{
+                            padding: 12px;
+                            float: left;
+                            margin-right: 5px;
+                        }
+                    }
+                 }          
+            }               
+        }
+        .content-2{
+            .process{
+                margin-left: 15px;
+                margin-right: 15px;
+                   .frame{
+                    width: 168px;
+                    height: 168px;
+                    background-size: contain;
+                    margin: 15px auto;
+                    position: relative;
+                    background-repeat: no-repeat;
+                    .noidung{
+                        width: 91%;
+                        height: 94%;
+                        margin-left: 5px;
+                        margin-top: 5.5px;
+                        .show,.hide{
+                            margin-top: 22.5px;
+                            width: 35%;
+                        }
+                        .h{
+                            margin-top: 10.5px;
+                        }                    
+                        p{
+                            font-size: 13.33px;
+                        }
+                        .btn-process{
+                            padding: 0px 10px;
+                        }
+                    }
+                    
+                   } 
+            }
+        }
+        .content-3{
+            .content-3-img{
+                flex: 0 0 100%;
+                max-width: 100%;
+                order: 2;  
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                .people{
+                    margin-left: -10px;
+                    height: 350px;
+                    width: 70%;
+                }
+                .trade{
+                    position: absolute;
+                    top: 45%;
+                    right: 16%;
+                    width: 20%;
+                }             
+            }
+            .content-3-text{
+                flex: 0 0 100%;
+                max-width: 100%;
+                text-align: center;
+                .content-sub{
+                    margin-left: 17.5px !important;
+                    margin-right: 17.5px !important;
+                    .content-sub-1{
+                        font-size: 37.77px !important;
+                    }
+                    .content-sub-2{
+                        font-family: $font-hira-w3 !important;
+                        font-size: 29.33px !important;
+                        color: #535353 !important;
+                    }
+                    .btn-content3{
+                        font-size: 21.33px !important;
+                        padding: 20px 40px !important;
+                        img{
+                            padding: 10px !important;
+                            float: left !important;
+                            width: 10px;
+                        }
+                    }
+                }
+            }     
+        }
+    }
+    /************************* ▲ contents ▲*************************/ 
+    /********************* ▼ footer ▼***********************/
+    .footer{
+        .footer-1{
+            .contact-footer{
+                .col-6{
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    text-align: center;
+                }
+                .phone{
+                   img{margin-left: 0px !important;}
+                }
+                .email-footer{
+                    .btn{
+                        margin-left: 0px !important;
+                        width: 50% !important;
+                        margin-top: 20px;
+                    }
+                 }
+            }
+        }
+        .footer-2{
+            a{
+                span{ 
+                border-right: 1px solid #212121 !important;
+                font-family: $font-hira-w3 !important;
+                color:#212121 !important;
+                }                   
+            }  
+        }     
+    }
+    /************************* ▲ footer ▲**************************/
+    /*=========================== ▼ responsive of file tv ▼ ===========================*/
+    .tv-mainimage{
+        .text-file{
+            margin: 85px 60px 85px 60px !important;
+            font-family: $font-sr !important;
+            font-size: 33.33px !important;
+        }
+    }
+    .tv-contents{
+        .content-top{
+            display: none !important;
+        }
+        .content-1{
+            .text-1{
+                font-family: $font-hira-w6 !important;
+                font-size: 33.33px !important;
+                color: #555555 !important;
+               
+            }
+            .text-2{
+                font-family:$font-hira-w3 !important;
+                font-size: 29.33px !important;;
+                color: #555555 !important;
+                padding: 45px 15px 0px 15px !important;
+            }
+            .table{
+                #tbl{display: none;}           
+                .table-rps{
+                    display: block !important;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    .col-3{
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                        .col-6{
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                    .tr{ border: 1px solid #dddddd!important;
+                        .th{                         
+                            padding-top: 12px;
+                            padding-bottom: 12px;
+                            background-color:#0e5b9a;
+                            color:#ffffff;
+                        }
+                    }                  
+                }   
+            }               
+        }
+        .content-2{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            .center{
+                p{
+                    font-family: $font-hira-w6 !important;
+                    font-size: 33.33px !important;
+                    color: #555555 !important;
+                }
+            }
+            .step{ 
+                padding-bottom: 40px !important;
+                .step-1,.step-2,.step-3,.step-4,.step-5{
+                    padding: 15px 15px 15px 15px !important;
+                    .col-8{
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                    .col-4{
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                    .img-cl4{
+                        img{
+                            width: 100% !important;
+                        }
+                    }
+                }
+                .step-1,.step-2,.step-3{
+                    a{
+                        font-family: $font-hira-w6  !important;
+                        color: #0f5c9b  !important ;
+                        font-size: 33.33px  !important;
+                    }
+                    p{
+                        font-family: $font-hira-w3  !important;
+                        color: #555555  !important;
+                        font-size: 29.33px  !important;
+                        padding-bottom: 15px;
+                    }
+                }
+                .step-4,.step-5,{
+                    a{
+                        font-family: $font-hira-w6  !important;
+                        color: #0f5c9b  !important ;
+                        font-size: 33.33px  !important;
+                    }
+                    p{
+                        padding-bottom: 15px;
+                        a{
+                            font-family: $font-hira-w6   !important;
+                            color: #0f5c9b  !important;
+                            font-size: 29.33px  !important;              
+                        }
+                    }
+                }
+                .step-1{
+                    .sub{
+                        .col-6{
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        .phone{
+                            img{
+                                width: 100% !important;
+                                height: 100px !important;
+                            }
+                        }
+                        .email{
+                            margin: 5px 0 20px;
+                            .btn{
+                                width: 100% !important;
+                            }
+                        }                                                  
+                    }
+                }
+            }
+        }
+        .content-3{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            .soild-content-3{
+                display: inline-block !important;
+            }
+            .txt-content-3{
+                font-family: $font-hira-w3 !important;
+                color: #555555 !important;
+            }
+        }
+    }
+
+    /*============================ ▲ responsive of file tv ▲ ==============================*/
+  
+}
+@media(min-width: 320px) and (max-width: 639px){
+    .process{
+        .col-4{
+            flex: 0 0 100%;
+            max-width: 100%;
+            .frame{
+                width: 300px !important;
+                height: 300px !important;
+                .noidung{
+                    width: 94% !important;
+                    height: 96% !important;
+                    p{
+                        font-size: 26.67px !important;
+                    }
+                    .btn-process{
+                        padding: 4px 20px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+ /********************* ▼ header-mainnav ▼***********************/
+    /************************* ▲ header ▲*************************/

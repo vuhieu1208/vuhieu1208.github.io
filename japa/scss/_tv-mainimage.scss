@@ -1,0 +1,12 @@
+.tv-mainimage{
+    background-image: url('../images/tv-mainimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .text-file{
+        margin: 67px auto 67px auto;
+        font-family: $font-m;
+        color: #ffffff;
+        font-size: 32px;
+    }
+}
