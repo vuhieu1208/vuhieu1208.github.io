@@ -179,7 +179,7 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   .header-mainnav .mainnav-mobile .menu-nav li:first-child { margin-top: 60px; }
   .header-mainnav .mainnav-mobile .menu-nav li:first-child div { border-top-style: dashed; }
   .header-mainnav .mainnav-mobile .menu-nav .border { border-bottom-style: dashed; margin-left: 70px; margin-right: 70px; padding: 0px; border-width: 1.5px; }
-  .header-mainnav .mainnav-mobile .menu-nav .border a { color: white; text-decoration: none; font-family: HiraKakuPro_w6; font-size: 26.67px; padding: 25px; margin-left: -25px; width: 100%; }
+  .header-mainnav .mainnav-mobile .menu-nav .border a { color: white; text-decoration: none; font-family: HiraKakuPro_w6; font-size: 20px; padding: 25px; margin-left: -25px; width: 100%; }
   .header-mainnav .mainnav-mobile .menu-nav .border a::before { content: url("../images/icon-right-rps.png"); padding-right: 10px; }
   /************************* ▲ header-mainnav ▲*************************/
   /********************* ▼ mainimage ▼***********************/
@@ -219,15 +219,16 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   /************************* ▲ contents ▲*************************/
   /********************* ▼ footer ▼***********************/
   .footer .footer-1 .text-footer .soild-footer { width: 80%; padding: 10px 20px !important; font-size: 21.33px !important; }
-  .footer .footer-1 .text-footer .text-white, .footer .footer-1 .text-footer .text-yellow { font-family: "HiraKakuProN-W3" !important; font-size: 18.66px !important; padding-left: 20px; padding-right: 20px; }
+  .footer .footer-1 .text-footer .text-white, .footer .footer-1 .text-footer .text-yellow { font-family: "HiraKakuProN-W3" !important; font-size: 18.66px !important; padding-left: 34px; padding-right: 34px; }
   .footer .footer-1 .contact-footer .col-6 { flex: 0 0 100%; max-width: 100%; text-align: center; }
   .footer .footer-1 .contact-footer .phone img { margin-left: 0px !important; }
   .footer .footer-1 .contact-footer .email-footer { padding-top: 5%; }
   .footer .footer-1 .contact-footer .email-footer .email { width: 300px !important; margin: auto !important; height: 40px !important; padding-top: 15px !important; }
+  .footer .footer-2 { padding-left: 30px; padding-right: 30px; }
   .footer .footer-2 a span { border-right: 1px solid #212121 !important; font-family: "HiraKakuProN-W3" !important; color: #212121 !important; }
   /************************* ▲ footer ▲**************************/
   /*=========================== ▼ responsive of file tv ▼ ===========================*/
-  .tv-mainimage .text-file { margin: 85px 60px 85px 60px !important; font-family: "ShinGoPro-Regular" !important; font-size: 33.33px !important; }
+  .tv-mainimage .text-file { margin: 85px 20px 85px 20px !important; font-family: "ShinGoPro-Regular" !important; font-size: 24px !important; }
   .tv-contents .content-top { display: none !important; }
   .tv-contents .content-1 .text-1 { font-family: "HiraKakuPro_w6" !important; font-size: 33.33px !important; color: #555555 !important; }
   .tv-contents .content-1 .text-2 { font-family: "HiraKakuProN-W3" !important; font-size: 29.33px !important; color: #555555 !important; padding: 45px 15px 0px 15px !important; }
@@ -237,6 +238,7 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   .tv-contents .content-1 .table .table-rps .col-6 { flex: 0 0 100%; max-width: 100%; }
   .tv-contents .content-1 .table .table-rps .tr { border: 1px solid #dddddd !important; }
   .tv-contents .content-1 .table .table-rps .tr .th { padding-top: 12px; padding-bottom: 12px; background-color: #0e5b9a; color: #ffffff; }
+  .tv-contents .content-1 .table .table-rps .tr .td { padding-bottom: 60px; }
   .tv-contents .content-2 { padding-left: 15px !important; padding-right: 15px !important; }
   .tv-contents .content-2 .center p { font-family: "HiraKakuPro_w6" !important; font-size: 33.33px !important; color: #555555 !important; }
   .tv-contents .content-2 .step { padding-bottom: 40px !important; }
@@ -250,12 +252,13 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   .tv-contents .content-2 .step .step-4 p, .tv-contents .content-2 .step .step-5 p { padding-bottom: 15px; }
   .tv-contents .content-2 .step .step-4 p a, .tv-contents .content-2 .step .step-5 p a { font-family: "HiraKakuPro_w6" !important; color: #0f5c9b  !important; font-size: 29.33px  !important; }
   .tv-contents .content-2 .step .step-1 .sub .col-6 { flex: 0 0 100%; max-width: 100%; }
-  .tv-contents .content-2 .step .step-1 .sub .phone img { width: 100% !important; height: 100px !important; }
-  .tv-contents .content-2 .step .step-1 .sub .email { margin: 5px 0 20px; }
-  .tv-contents .content-2 .step .step-1 .sub .email .btn { width: 100% !important; }
+  .tv-contents .content-2 .step .step-1 .sub .phone img { width: 100% !important; height: auto !important; }
+  .tv-contents .content-2 .step .step-1 .sub .email-tvcontent { margin: 10px 0 30px; }
+  .tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email { width: 100%  !important; height: auto  !important; padding-top: 10px  !important; padding-bottom: 10px  !important; }
+  .tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email .eml { font-size: 14.33px !important; color: #ff6600  !important; }
   .tv-contents .content-3 { padding-left: 15px !important; padding-right: 15px !important; }
-  .tv-contents .content-3 .soild-content-3 { display: inline-block !important; }
-  .tv-contents .content-3 .txt-content-3 { font-family: "HiraKakuProN-W3" !important; color: #555555 !important; }
+  .tv-contents .content-3 .soild-content-3 { display: inline-block !important; padding: 15px 20px !important; font-size: 21.33px  !important; }
+  .tv-contents .content-3 .txt-content-3 { font-family: "HiraKakuProN-W3" !important; color: #555555 !important; padding-left: 24px; padding-right: 24px; }
   /*============================ ▲ responsive of file tv ▲ ==============================*/ }
 @media (min-width: 320px) and (max-width: 639px) { .process .col-4 { flex: 0 0 100%; max-width: 100%; }
   .process .col-4 .frame { width: 300px !important; height: 300px !important; }
@@ -266,7 +269,7 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
 /************************* ▲ header ▲*************************/
 /*# import tv-mainimage*/
 .tv-mainimage { background-image: url("../images/tv-mainimage.png"); background-size: cover; background-position: center; background-repeat: no-repeat; }
-.tv-mainimage .text-file { margin: 67px auto 67px auto; font-family: "meiryo"; color: #ffffff; font-size: 32px; }
+.tv-mainimage .text-file { margin: 67px auto 67px auto; font-family: "meiryo"; color: #ffffff; font-size: 37.33px; }
 
 /*# import tv-contents*/
 .tv-contents .content-top { border-bottom: 1px solid #dddddd; }
@@ -275,10 +278,10 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
 .tv-contents .content-top .text p { color: #000000; }
 .tv-contents .content-top .text a, .tv-contents .content-top .text p { font-family: "meiryo"; font-size: 12px; }
 .tv-contents .content-1 .text { margin-top: 65px; }
-.tv-contents .content-1 .text .text-1 { font-family: "meiryo"; font-size: 30.67px; line-height: 0.8; color: #111111; }
-.tv-contents .content-1 .text .text-2 { font-family: "meiryo"; font-size: 17.33px; color: #525252; padding-top: 45px; }
+.tv-contents .content-1 .text .text-1 { font-family: "meiryo"; font-size: 34.66px; color: #111111; }
+.tv-contents .content-1 .text .text-2 { font-family: "meiryo"; font-size: 21.33px; color: #525252; padding-top: 45px; }
 .tv-contents .content-1 .text .table { margin-top: 47px; margin-bottom: 80px; }
-.tv-contents .content-1 .text .table #tbl { font-family: "meiryo"; font-size: 17.33px; border-collapse: collapse; width: 100%; }
+.tv-contents .content-1 .text .table #tbl { font-family: "meiryo"; font-size: 21.33px; border-collapse: collapse; width: 100%; }
 .tv-contents .content-1 .text .table #tbl thead .tbw-1 { width: 260px; }
 .tv-contents .content-1 .text .table #tbl thead .tbw-2 { width: 218px; }
 .tv-contents .content-1 .text .table #tbl td, .tv-contents .content-1 .text .table #tbl th { border: 1px solid #ddd; padding: 8px; padding-bottom: 140px; }
@@ -287,19 +290,21 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
 .tv-contents .content-1 .text .table .table-rps { display: none; }
 .tv-contents .content-2 { background-color: #eeeeee; }
 .tv-contents .content-2 .center { padding-top: 70px; }
-.tv-contents .content-2 .center p { font-family: "meiryo"; font-size: 30.67px; line-height: 0.8; color: #111111; }
+.tv-contents .content-2 .center p { font-family: "meiryo"; font-size: 34.66px; color: #111111; }
 .tv-contents .content-2 .step { padding-bottom: 50px; }
 .tv-contents .content-2 .step .step-1, .tv-contents .content-2 .step .step-2, .tv-contents .content-2 .step .step-3, .tv-contents .content-2 .step .step-4, .tv-contents .content-2 .step .step-5 { padding: 25px 25px 25px 25px; background-color: #ffffff; }
 .tv-contents .content-2 .step .step-1 a, .tv-contents .content-2 .step .step-2 a, .tv-contents .content-2 .step .step-3 a, .tv-contents .content-2 .step .step-4 a, .tv-contents .content-2 .step .step-5 a { text-decoration: none; font-family: "ShinGoPro-DeBold"; color: #0e5b9a; font-size: 18.67px; }
 .tv-contents .content-2 .step .step-1 a img, .tv-contents .content-2 .step .step-2 a img, .tv-contents .content-2 .step .step-3 a img, .tv-contents .content-2 .step .step-4 a img, .tv-contents .content-2 .step .step-5 a img { float: left; margin-right: 15px; }
 .tv-contents .content-2 .step .step-1 p, .tv-contents .content-2 .step .step-2 p, .tv-contents .content-2 .step .step-3 p, .tv-contents .content-2 .step .step-4 p, .tv-contents .content-2 .step .step-5 p { font-family: "meiryo"; font-size: 16px; color: #111111; padding-top: 15px; }
-.tv-contents .content-2 .step .step-1 .img-cl4 img, .tv-contents .content-2 .step .step-2 .img-cl4 img, .tv-contents .content-2 .step .step-3 .img-cl4 img, .tv-contents .content-2 .step .step-4 .img-cl4 img, .tv-contents .content-2 .step .step-5 .img-cl4 img { float: right; }
+.tv-contents .content-2 .step .step-1 .img-cl4 img, .tv-contents .content-2 .step .step-2 .img-cl4 img, .tv-contents .content-2 .step .step-3 .img-cl4 img, .tv-contents .content-2 .step .step-4 .img-cl4 img, .tv-contents .content-2 .step .step-5 .img-cl4 img { width: 100%; }
 .tv-contents .content-2 .step .step-2, .tv-contents .content-2 .step .step-3, .tv-contents .content-2 .step .step-4, .tv-contents .content-2 .step .step-5 { margin-top: 30px; }
 .tv-contents .content-2 .step .step-1 { margin-top: 45px; }
-.tv-contents .content-2 .step .step-1 .sub { margin-top: 50px; }
-.tv-contents .content-2 .step .step-1 .sub .phone img { width: 95%; height: 45px; }
-.tv-contents .content-2 .step .step-1 .sub .email .btn { width: 95%; height: 45px; font-family: "meiryob"; color: #ff6600; font-size: 13.33px; border: none; background-color: #ffed4d; cursor: pointer; }
-.tv-contents .content-2 .step .step-1 .sub .email .btn:hover { background-color: #ffed4d; opacity: 0.7; }
+.tv-contents .content-2 .step .step-1 .sub { margin-top: 49px; }
+.tv-contents .content-2 .step .step-1 .sub .phone img { width: 95%; }
+.tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email { width: 285px; height: 45px; background-color: #ffed4d; text-align: center; padding-top: 20px; }
+.tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email .eml { font-family: "meiryob"; color: #ff6600; font-size: 13.33px; font-weight: bold; border: none; text-decoration: none; cursor: pointer; }
+.tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email .eml img { float: none; margin-right: 5px; }
+.tv-contents .content-2 .step .step-1 .sub .email-tvcontent .email:hover { background-color: #ffed4d; opacity: 0.7; }
 .tv-contents .content-3 { margin-top: 60px; }
 .tv-contents .content-3 .soild-content-3 { font-family: "ShinGoPro-DeBold"; border-style: solid; border-width: 1px; color: #0f5c9b; padding: 15px 77px; font-size: 26.67px; text-decoration: none; }
 .tv-contents .content-3 .txt-content-3 { margin-top: 50px; margin-bottom: 80px; font-family: "meiryo"; color: #525252; font-size: 16px; }

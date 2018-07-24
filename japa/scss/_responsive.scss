@@ -61,7 +61,7 @@
                         color: white;
                         text-decoration: none;
                         font-family: HiraKakuPro_w6;
-                        font-size: 26.67px;
+                        font-size: 20px;
                         padding: 25px;
                         margin-left: -25px;
                         width: 100%;
@@ -239,8 +239,8 @@
                 .text-white,.text-yellow{
                     font-family:$font-hira-w3 !important ;
                     font-size: 18.66px !important;
-                    padding-left: 20px;
-                    padding-right: 20px;
+                    padding-left: 34px;
+                    padding-right: 34px;
                 }
             }
             .contact-footer{
@@ -264,6 +264,8 @@
             }
         }
         .footer-2{
+            padding-left: 30px;
+            padding-right: 30px; 
             a{
                 span{ 
                 border-right: 1px solid #212121 !important;
@@ -277,9 +279,9 @@
     /*=========================== ▼ responsive of file tv ▼ ===========================*/
     .tv-mainimage{
         .text-file{
-            margin: 85px 60px 85px 60px !important;
+            margin: 85px 20px 85px 20px !important;
             font-family: $font-sr !important;
-            font-size: 33.33px !important;
+            font-size: 24px !important;
         }
     }
     .tv-contents{
@@ -320,6 +322,7 @@
                             background-color:#0e5b9a;
                             color:#ffffff;
                         }
+                        .td{padding-bottom: 60px;}
                     }                  
                 }   
             }               
@@ -389,13 +392,20 @@
                         .phone{
                             img{
                                 width: 100% !important;
-                                height: 100px !important;
+                                height: auto !important;
                             }
                         }
-                        .email{
-                            margin: 5px 0 20px;
-                            .btn{
-                                width: 100% !important;
+                        .email-tvcontent{
+                            margin: 10px 0 30px;
+                            .email{
+                                width: 100%  !important;
+                                height: auto  !important;
+                                padding-top: 10px  !important;
+                                padding-bottom: 10px  !important;
+                                .eml{
+                                    font-size: 14.33px !important;
+                                    color: #ff6600  !important;
+                                }
                             }
                         }                                                  
                     }
@@ -407,10 +417,14 @@
             padding-right: 15px !important;
             .soild-content-3{
                 display: inline-block !important;
+                padding: 15px 20px !important;
+                font-size: 21.33px  !important;
             }
             .txt-content-3{
                 font-family: $font-hira-w3 !important;
                 color: #555555 !important;
+                padding-left: 24px;
+                padding-right: 24px;
             }
         }
     }
