@@ -19,7 +19,10 @@
                     display: inline-block;
 
             }
-            .text-white,.text-yellow{font-family:$font-hira-w3 !important ;font-size: 17.33px !important;}
+            .text-white,.text-yellow{
+                font-family:$font-m;
+                font-size: 21.33px;
+            }
             .text-white{
                 margin-top: 30px;           
                 color: #ffffff !important;           
@@ -43,23 +46,27 @@
                 }
                }
            .email-footer{
-               .btn{
-                width: 51%;
-                height: 51px;
-                font-family: $font-mb;
-                color: #ff6600;
-                font-size: 13.33px;
-                font-weight: bold;
-                border: none;
-                background-color: #ffed4d;
-                cursor: pointer;
-                margin-left: 75px;
-                img{margin-right: 5px;margin-left: 10px;}
-            }
-            .btn:hover{ 
-                background-color: #ffed4d;
-                opacity: 0.7;
-            }    
+                .email{
+                    width: 233px;
+                    height: 35px;
+                    background-color: #ffed4d;
+                    text-align: center;
+                    padding-top: 15px;
+                    margin-left: 85px;
+                    .eml{
+                        font-family: $font-mb;
+                        color: #ff6600;
+                        font-size: 13.33px;
+                        font-weight: bold;
+                        border: none;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }               
+                }   
+                .email:hover{ 
+                    background-color: #ffed4d;
+                    opacity: 0.7;
+                }     
            }  
         }      
         .page-top{
@@ -93,6 +100,11 @@
             h5{
                 color: #ffffff;
             }
+        }
+        .page-top .show {
+            visibility:visible;
+            cursor:pointer;
+            opacity: 1.0;
         }
     }
     .footer-2{

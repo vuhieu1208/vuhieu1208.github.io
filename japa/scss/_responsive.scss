@@ -38,7 +38,6 @@
             display: none;
         }
         .mainnav-mobile{
-            display: block;
             background-color: #0f5c9b !important;
             color: white;
             position: absolute;
@@ -80,8 +79,9 @@
     .mainimage{
         .soild{
             width: 80%;
-            font-size: 33.77px;
-            padding: 10px 25px;
+            font-size: 25.33px;
+            padding: 10px 20px;
+            text-align: center;
         }
     } 
     /************************* ▲ mainimage ▲*************************/ 
@@ -89,8 +89,8 @@
     .contents{
         .content-1{
             padding: 0px; 
-            margin-left: 13px;
-            margin-right: 13px;
+            margin-left: 17.5px;
+            margin-right: 17.5  px;
             .col-3{
                 flex: 0 0 100%;
                 max-width: 100%;
@@ -104,7 +104,7 @@
                     }
                     .btn-contact{
                         display: none;
-                    }
+                    }                   
                 }                   
             }
             .day{
@@ -141,6 +141,14 @@
             }               
         }
         .content-2{
+            .text{
+                .text-1{font-size: 25.33px !important;}
+                .text-3{
+                    padding-right: 17.5px;
+                    padding-left: 17.5px;
+                    font-size: 13.33px !important;
+                }
+            }
             .process{
                 margin-left: 15px;
                 margin-right: 15px;
@@ -179,19 +187,15 @@
                 flex: 0 0 100%;
                 max-width: 100%;
                 order: 2;  
-                display: flex;
-                flex-direction: column;
-                position: relative;
                 .people{
                     margin-left: -10px;
-                    height: 350px;
-                    width: 70%;
+                    width: 80%;
                 }
                 .trade{
                     position: absolute;
-                    top: 45%;
-                    right: 16%;
-                    width: 20%;
+                    top: 40%;
+                    right: 10%;
+                    width: 25%;
                 }             
             }
             .content-3-text{
@@ -202,16 +206,16 @@
                     margin-left: 17.5px !important;
                     margin-right: 17.5px !important;
                     .content-sub-1{
-                        font-size: 37.77px !important;
+                        font-size: 25.33px !important;
                     }
                     .content-sub-2{
                         font-family: $font-hira-w3 !important;
-                        font-size: 29.33px !important;
+                        font-size: 14px !important;
                         color: #535353 !important;
                     }
                     .btn-content3{
-                        font-size: 21.33px !important;
-                        padding: 20px 40px !important;
+                        font-size: 17.33px !important;
+                        padding: 15px 20px !important;
                         img{
                             padding: 10px !important;
                             float: left !important;
@@ -226,6 +230,19 @@
     /********************* ▼ footer ▼***********************/
     .footer{
         .footer-1{
+            .text-footer{
+                .soild-footer{
+                    width: 80%;
+                    padding: 10px 20px !important;
+                    font-size: 21.33px !important;
+                }
+                .text-white,.text-yellow{
+                    font-family:$font-hira-w3 !important ;
+                    font-size: 18.66px !important;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
             .contact-footer{
                 .col-6{
                     flex: 0 0 100%;
@@ -236,10 +253,12 @@
                    img{margin-left: 0px !important;}
                 }
                 .email-footer{
-                    .btn{
-                        margin-left: 0px !important;
-                        width: 50% !important;
-                        margin-top: 20px;
+                    padding-top: 5%;
+                    .email{
+                        width: 300px !important;;
+                        margin: auto !important;;
+                        height: 40px !important;;
+                        padding-top: 15px !important;
                     }
                  }
             }
@@ -421,6 +440,5 @@
         }
     }
 }
-// clipPathdjcl
  /********************* ▼ header-mainnav ▼***********************/
     /************************* ▲ header ▲*************************/

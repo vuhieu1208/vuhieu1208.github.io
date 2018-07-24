@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
 	<title>IT NETWORK</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div id="top">
 	</div>
@@ -27,8 +29,11 @@
 						<span>営業時間 9：00～18：00　定休日 土・日・祝日</span>
 					</div>
 					<div class="col-6 email-header">
-						<button class="btn">
-							<img src="images/email.png" alt=""> メールでのお問合わせはこちら</button>
+						<div class="email">
+							<a href="#" class="eml">
+								<img src="images/email.png" alt=""> メールでのお問合わせはこちら
+							</a>
+						</div>
 					</div>
 				</div>
 				<div class="btn-hide-icon">
@@ -79,7 +84,7 @@
 			<div class="container wrap-page">
 				<ul class="menu-nav">
 					<li>
-						<div  class="row border frist">
+						<div class="row border frist">
 							<a href="#">
 								新着情報
 							</a>
@@ -212,27 +217,25 @@
 			</div>
 		</div>
 		<div class="content-3">
-			<div class="wrap-page ">
-				<div class="row">
-					<div class="col-6 content-3-img">
-						<img class="people" src="images/people.png" alt="">
-						<img class="trade" src="images/trade.png" alt="">
-					</div>
-					<div class="col-6 content-3-text">
-						<div class="content-sub">
-							<p class="content-sub-1">当社はALSOKホームセキュリティ
-								<br>正規販売取次店です。</p>
-							<br>
-							<p class="content-sub-2">
-								専門の担当者が対応いたします。
-								<br> 最新のセキュリティシステムでお客様のお住まいを守り、
-								<br> 安心・安全な生活をお届けいたします。
-								<br> お気軽にお問い合わせください。
-							</p>
-							<button class="btn-content3">
-								<img src="images/icon-rightw.png" alt=""> ホームセキュリティについて詳しく見る
-							</button>
-						</div>
+			<div class="row wrap-page ">
+				<div class="col-6 content-3-img">
+					<img class="people" src="images/people.png" alt="">
+					<img class="trade" src="images/trade.png" alt="">
+				</div>
+				<div class="col-6 content-3-text">
+					<div class="content-sub">
+						<p class="content-sub-1">当社はALSOKホームセキュリティ
+							<br>正規販売取次店です。</p>
+						<br>
+						<p class="content-sub-2">
+							専門の担当者が対応いたします。
+							<br> 最新のセキュリティシステムでお客様のお住まいを守り、
+							<br> 安心・安全な生活をお届けいたします。
+							<br> お気軽にお問い合わせください。
+						</p>
+						<button class="btn-content3">
+							<img src="images/icon-rightw.png" alt=""> ホームセキュリティについて詳しく見る
+						</button>
 					</div>
 				</div>
 			</div>
@@ -247,7 +250,7 @@
 					<a class="soild-footer" href="#">アンテナ工事のお見積は無料です！</a>
 					<br>
 					<p class="text-white">現地調査費用、見積作成費用は無料でおこなっています。
-							<br> お気軽にお問い合わせください。
+						<br> お気軽にお問い合わせください。
 					</p>
 					<p class="text-yellow">定休日にはメールでお問い合わせください。</p>
 				</div>
@@ -256,9 +259,11 @@
 						<img src="images/phone-footerfl.png" alt="phone">
 					</div>
 					<div class=" col-6 email-footer">
-						<button class="btn">
-							<img src="images/email.png" alt=""> メールでのお問合わせはこちら
-						</button>
+						<div class="email">
+							<a href="#" class="eml">
+								<img src="images/email.png" alt=""> メールでのお問合わせはこちら
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -325,13 +330,13 @@
 	</footer>
 	<!--▲ footer ▲-->
 	<!--▼ script ▼-->
-	<script>
+	<script>		
 		function myFunction() {
 			var x = document.getElementById("mymainnav");
-			if (x.style.display === "none") {
-				x.style.display = "block";
-			} else {
+			if (x.style.display === "block") {
 				x.style.display = "none";
+			} else {
+				x.style.display = "block";
 			}
 			var icon = document.getElementById('icon-bar');
 			if (icon.className == 'icon-bars') {
@@ -346,4 +351,5 @@
 	</script>
 	<!--▲ script ▲-->
 </body>
+
 </html>

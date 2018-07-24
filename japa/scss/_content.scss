@@ -150,17 +150,15 @@
     }
     .content-3{    
         .content-3-img{
-            display: flex;
-            flex-direction: column;
             position: relative;
             .people{
                 margin-left: -30px;
+                display: block;
             }
             .trade{
                 position: absolute;
-                top: 160px;
-                right: 0;
-                width: 130px;
+                top: 170px;
+                right: 0;              
             }
         } 
     .content-sub{
@@ -168,13 +166,13 @@
             margin-top: 82px;
             .content-sub-1{
                 font-family: $font-sd;
-                font-size: 20px;
+                font-size: 25.67px;
                 color: #000000 ;
                 line-height: 1.3;
             }
             .content-sub-2{
                 font-family: meiryo;
-                font-size: 14.67px;
+                font-size: 15.33px;
                 color: #545454 ;
             }
             .btn-content3{
