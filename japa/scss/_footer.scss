@@ -9,15 +9,14 @@
             padding-left: 15px !important;
             padding-right: 15px !important;
             .soild-footer{
-                    font-family:$font-sd;
-                    border-style: solid;
-                    border-width: 1px;
-                    color: white;
-                    padding: 15px 90px;
-                    text-decoration: none;
-                    font-size: 26.67px;
-                    display: inline-block;
-
+                font-family:$font-sd;
+                border-style: solid;
+                border-width: 1px;
+                color: white;
+                padding: 15px 90px;
+                text-decoration: none;
+                font-size: 26.67px;
+                display: inline-block;
             }
             .text-white,.text-yellow{
                 font-family:$font-m;
@@ -78,19 +77,22 @@
             text-align: center;
             margin-right: 150px;
             cursor: pointer;
-            .show{
-                margin-top: 23px;
-            }
-            .hide{
-                margin-top: 23px;
-            }
-            img.hide{
-                display: none;
-            }
-            h5{
-                font-family: $font-d;
-                color: #006699;
-                font-size: 13.33px;   
+            a{
+                text-decoration: none;
+                .show{
+                    margin-top: 23px;
+                }
+                .hide{
+                    margin-top: 23px;
+                }
+                img.hide{
+                    display: none;
+                }
+                h5{
+                    font-family: $font-d;
+                    color: #006699;
+                    font-size: 13.33px;   
+                }
             }
         }
         .page-top:hover{
@@ -100,11 +102,6 @@
             h5{
                 color: #ffffff;
             }
-        }
-        .page-top .show {
-            visibility:visible;
-            cursor:pointer;
-            opacity: 1.0;
         }
     }
     .footer-2{

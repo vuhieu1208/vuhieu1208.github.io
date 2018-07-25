@@ -125,12 +125,12 @@
 		</nav>
 		<!--▲ mainnav for mobile ▲-->
 	</div>
-	<!--▲ header-mainnav ▲-->
+	<!--▲ end-header-mainnav ▲-->
 	<!--▼ mainimage ▼-->
 	<section class="mainimage row">
 		<a class="soild" href="index2.html">安心・安全をお届けする地域密着型の工事屋です</a>
 	</section>
-	<!--▲ mainimage ▲-->
+	<!--▲ end-mainimage ▲-->
 	<!--▼ contents ▼-->
 	<section class="contents">
 		<div class="container wrap-page ">
@@ -243,7 +243,7 @@
 			</div>
 		</div>
 	</section>
-	<!--▲ contents ▲-->
+	<!--▲ end-contents ▲-->
 	<!--▼ footer ▼-->
 	<footer class="footer">
 		<div class="footer-1">
@@ -259,7 +259,7 @@
 				<div class=" row contact-footer">
 					<div class=" col-6 phone ">
 						<a href="tel:555-555-5555">
-						<img src="images/phone-footerfl.png" alt="phone">
+							<img src="images/phone-footerfl.png" alt="phone">
 						</a>
 					</div>
 					<div class=" col-6 email-footer">
@@ -272,9 +272,11 @@
 				</div>
 			</div>
 			<div class="page-top">
-				<img class="show" src="images/icon-topb.png" alt="top">
-				<img class="hide" src="images/icon-topw.png" alt="top">
-				<h5>PAGE TOP</h5>
+				<a href="#" class="top">
+					<img class="show" src="images/icon-topb.png" alt="top">
+					<img class="hide" src="images/icon-topw.png" alt="top">
+					<h5>PAGE TOP</h5>
+				</a>
 			</div>
 		</div>
 		<div class="footer-2">
@@ -332,9 +334,13 @@
 			</div>
 		</div>
 	</footer>
-	<!--▲ footer ▲-->
+	<!--▲ end-footer ▲-->
 	<!--▼ script ▼-->
-	<script>		
+	<script>	
+		$('a.top').click(function () {
+			$('html, body').animate({ scrollTop: 0 }, 2000, 'easeOutExpo');
+			return false;
+		});
 		function myFunction() {
 			var x = document.getElementById("mymainnav");
 			if (x.style.display === "block") {
@@ -353,7 +359,7 @@
 			}
 		}
 	</script>
-	<!--▲ script ▲-->
+	<!--▲ end-script ▲-->
 </body>
 
 </html>
