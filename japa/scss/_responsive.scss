@@ -265,13 +265,20 @@
         .footer-2{
             padding-left: 30px;
             padding-right: 30px; 
-            a{
-                border-right: 1px solid #212121 !important;
-                font-family: $font-hira-w3 !important;
-                color:#212121 !important;
-                span{              
-                font-size: 15.33px !important;
-                }                   
+            .menu-footer{
+                li{
+                    a{
+                        border-right: 1px solid #212121 !important;
+                        font-family: $font-hira-w3 !important;
+                        color:#212121 !important;
+                        span{              
+                        font-size: 15.33px !important;
+                        }   
+                    }                 
+                }  
+                li:first-child a{
+                    border-left:1px solid #212121 !important;
+                }              
             }  
         }     
     }

@@ -226,8 +226,9 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   .footer .footer-1 .contact-footer .email-footer { padding-top: 5%; }
   .footer .footer-1 .contact-footer .email-footer .email { width: 300px !important; margin: auto !important; height: 40px !important; padding-top: 15px !important; }
   .footer .footer-2 { padding-left: 30px; padding-right: 30px; }
-  .footer .footer-2 a { border-right: 1px solid #212121 !important; font-family: "HiraKakuProN-W3" !important; color: #212121 !important; }
-  .footer .footer-2 a span { font-size: 15.33px !important; }
+  .footer .footer-2 .menu-footer li a { border-right: 1px solid #212121 !important; font-family: "HiraKakuProN-W3" !important; color: #212121 !important; }
+  .footer .footer-2 .menu-footer li a span { font-size: 15.33px !important; }
+  .footer .footer-2 .menu-footer li:first-child a { border-left: 1px solid #212121 !important; }
   /************************* ▲ footer ▲**************************/
   /*=========================== ▼ responsive of file tv ▼ ===========================*/
   .tv-mainimage .text-file { margin: 85px 20px 85px 20px !important; font-family: "ShinGoPro-Regular" !important; font-size: 24px !important; }
