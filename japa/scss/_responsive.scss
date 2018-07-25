@@ -121,16 +121,20 @@
                     padding-bottom: 10px;
                     }
                 .btn-day{
-                    margin-bottom: 20px;               
+                    display: block;
+                    padding: 2%;
+                    text-align: center;            
                     .btn-hide{
-                        display: block;
-                        border: none;
-                        padding: 0px 25px 0 0;
-                        margin-top: 15px;
-                        background:#006699;
-                        color: white;
-                        font-family: $font-sm;
                         font-size: 17.33px;
+                        background-color: #006699;
+                        border: none;
+                        color: white;
+                        padding: 3px 14px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        margin: 4px 2px;
+                        font-family: $font-sm;
                         img{
                             padding: 12px;
                             float: left;
