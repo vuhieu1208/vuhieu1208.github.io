@@ -238,7 +238,7 @@ body { font-family: YuGothR,HiraKakuPro_w6,meiryo, sans-serif; font-weight: 500;
   .contents .content-1 .day p { margin-bottom: 10px; border-top: 1px dashed #dddddd; margin-left: 0px; }
   .contents .content-1 .day a { display: flex; }
   .contents .content-1 .day .border-bot { border-bottom: 1px dashed #dddddd; padding-bottom: 10px; }
-  .contents .content-1 .day .btn-day { display: block; padding: 2%; text-align: center; }
+  .contents .content-1 .day .btn-day { display: block; padding: 2%; text-align: center; margin-bottom: 22.5px; }
   .contents .content-1 .day .btn-day .btn-hide { font-size: 17.33px; background-color: #006699; border: none; color: white; padding: 3px 14px; text-align: center; text-decoration: none; display: inline-block; margin: 4px 2px; font-family: "ShinGoPro-Medium"; }
   .contents .content-1 .day .btn-day .btn-hide img { padding: 12px; float: left; margin-right: 5px; }
   .contents .content-2 .text .text-1 { font-size: 25.33px !important; }
