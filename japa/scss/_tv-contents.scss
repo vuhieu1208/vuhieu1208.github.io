@@ -3,16 +3,14 @@
         border-bottom: 1px solid #dddddd;
         .text{
             padding: 10px;
-            a{
-                float: left;
-                color: #0c5999 ;
-            }
-            p{
-                color: #000000 ;
-            }       
-            a,p{
+            ul.breadcrumb li {
+                display: inline;
                 font-family: $font-m;
                 font-size: 12px;
+                }
+            ul.breadcrumb li+li:before {
+                color: #000000;
+                content: ">\00a0";
             }
         }       
     }

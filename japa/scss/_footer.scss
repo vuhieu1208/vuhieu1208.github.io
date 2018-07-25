@@ -117,16 +117,15 @@
             list-style-type: none;
             li{
                 display: inline-block;
+                line-height: 2;
                 a{
-                    span{ 
-                    display: inline-block;
-                    padding: 0 22px;
+                    padding: 0 25px;
                     text-decoration: none;
                     border-right: 1px solid #5e5e5e;
                     font-family: meiryo;
-                    color:#222222;
-                    font-size: 16px;
-                    text-align: center;
+                    color: #222222;
+                    span{  
+                    font-size: 18.66px;
                     }                   
                 }  
             }
